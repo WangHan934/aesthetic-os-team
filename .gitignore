@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+.openai/
+# 登录状态下保存的小红书网页，含账号信息，不能上传
+_raw/
+# 付费课程、拼多多资料等原件只留在本地，仓库里只放自己整理的笔记
+private/

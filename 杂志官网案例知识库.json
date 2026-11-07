@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-10-23",
+  "review_status": "draft",
+  "sources": {
+    "elle": {
+      "publication": "ELLE Australia",
+      "title": "ELLE’s Guide To The Biggest Fashion Trends Of 2025",
+      "author": "Ruby Feneley",
+      "published": "2025-01-08",
+      "url": "https://www.elle.com.au/fashion/fashion-trends-2025/"
+    },
+    "vogue": {
+      "publication": "Vogue Runway",
+      "title": "Balenciaga Fall 2025 Ready-to-Wear",
+      "author": "Sarah Mower",
+      "published": "2025-03-10",
+      "url": "https://www.vogue.com/fashion-shows/fall-2025-ready-to-wear/balenciaga"
+    },
+    "spring": {
+      "publication": "Harper’s BAZAAR US",
+      "title": "The Prettiest Spring 2025 Makeup Trends From the Runways",
+      "author": "Katie Intner",
+      "published": "2025-02-21",
+      "url": "https://www.harpersbazaar.com/beauty/makeup/g62119299/spring-2025-makeup-trends/"
+    },
+    "fall": {
+      "publication": "Harper’s BAZAAR US",
+      "title": "The Best Makeup Trends From the Fall 2025 Runways",
+      "author": "Jenna Rosenstein",
+      "published": "2025-03-10",
+      "url": "https://www.harpersbazaar.com/beauty/makeup/g63789120/fall-2025-makeup-trends/"
+    }
+  },
+  "cases": [
+    {
+      "id": "chloe-aw24",
+      "category": "穿搭",
+      "brand": "Chloé",
+      "season": "2024 秋冬",
+      "designer": "Chemena Kamali",
+      "title": "流动的线条，保留自己的节奏",
+      "direction": "轻盈复古",
+      "source": "elle",
+      "image": "https://api.photon.aremedia.net.au/wp-content/uploads/sites/6/2025/01/fashion-trends-2025-7.jpg?resize=1080%2C1920",
+      "credit": "官网图注：Chloé；该图旁未单独列摄影师",
+      "fact": "ELLE 将这季 Chloé 作为波西米亚风格回归的案例。",
+      "reading": "原创解读：流动面料与复古细节，把“有表达”从强硬的轮廓中释放出来。它可以表达自在与浪漫，但不代表穿着者必须拥有某种性格。",
+      "application": "日常只借一件有轻微褶裥的上衣，配已有直筒裤；不喜欢透视时选带内衬或不透的材质。",
+      "avoid": "秀场的材质与配饰密度不用全部照搬；通勤、校园可降低透视与装饰程度。",
+      "question": "你喜欢的是柔软面料、复古感，还是更多活动空间？先选择一个。",
+      "tags": [
+        "曲线",
+        "轻盈",
+        "复古"
+      ],
+      "intent": "relaxed",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    },
+    {
+      "id": "saint-laurent-ss25",
+      "category": "穿搭",
+      "brand": "Saint Laurent",
+      "season": "2025 春夏",
+      "designer": "Anthony Vaccarello",
+      "title": "把熟悉的西装，穿出新的主导感",
+      "direction": "利落剪裁",
+      "source": "elle",
+      "image": "https://api.photon.aremedia.net.au/wp-content/uploads/sites/6/2025/01/fashion-trends-2025-6.jpg?resize=1080%2C1920",
+      "credit": "官网图注：Saint Laurent；该图旁未单独列摄影师",
+      "fact": "ELLE 以这一季的宽大西装讨论个人风格。",
+      "reading": "原创解读：西装既是结构，也是一套被社会读懂的服装符号。借用它，未必为了显得更成熟，也可以表达自主、从容和对既定穿衣角色的重新选择。",
+      "application": "先用一件肩部活动舒适的外套＋T 恤＋平底鞋，保留清楚轮廓，按场景降低正式程度。",
+      "avoid": "宽肩不等于越大越好；先试坐、抬手和走动，确认你喜欢这种体积。",
+      "question": "你想保留的是清楚线条，还是完整的正式着装？两种选择都成立。",
+      "tags": [
+        "直线",
+        "结构",
+        "角色表达"
+      ],
+      "intent": "composed",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    },
+    {
+      "id": "balenciaga-aw25-47",
+      "category": "穿搭",
+      "brand": "Balenciaga",
+      "season": "2025 秋冬成衣 · Look 47",
+      "designer": "Demna",
+      "title": "日常服装，也能提出时尚问题",
+      "direction": "运动混搭",
+      "source": "vogue",
+      "image": "https://assets.vogue.com/photos/67ce14f3e0bda6fe1f6ad026/master/w_360%2Cc_limit/00047-balenciaga-fall-2025-ready-to-wear-credit-gorunway.jpg",
+      "credit": "Isidore Montag / Gorunway.com",
+      "fact": "Vogue 报道这季重访了 Demna 的多种既有服装语言。",
+      "reading": "原创解读：把剪裁服装与运动语汇放到一起，可以重新安排“正式”和“日常”的边界。这与品牌创始人研究廓形的历史有可讨论的联系，不能直接当成同一个时代的意图。",
+      "application": "把已有深色外套和干净运动鞋组合；只改变一处体积或正式程度，先观察自己是否喜欢。",
+      "avoid": "此图是秀场案例，不是用户试穿。日常不用复制走秀姿态、全套配饰或夸张比例。",
+      "question": "你更想尝试服装的空间感，还是正式与运动之间的反差？",
+      "tags": [
+        "混搭",
+        "体积",
+        "日常符号"
+      ],
+      "intent": "expressive",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    },
+    {
+      "id": "armani-ss25-beauty",
+      "category": "妆容",
+      "brand": "Giorgio Armani",
+      "season": "2025 春夏",
+      "designer": "妆容：Hiromi Ueda",
+      "title": "复古眼线，怎样留在今天",
+      "direction": "现代复古眼妆",
+      "source": "spring",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/giorgio-armani-s25-047a-671264f108862.jpg?crop=1xw%3A1xh%3Bcenter%2Ctop",
+      "credit": "Brittany Malecha",
+      "fact": "BAZAAR 记录了酒红双眼线与 1960 年代元素的现代处理。",
+      "reading": "原创解读：保留一个年代元素、减轻其他部分的浓度，可以让历史风格进入今天。复古感来自元素组合，而不只来自某个颜色。",
+      "application": "入门先选柔和棕红眼线，只画上眼线；双线与浅色水线是秀场思路，不是日常必选。",
+      "avoid": "不必为了复古同时加重底妆、眼线与唇色。",
+      "question": "你想借用的是年代感，还是眼部更清楚的线条？",
+      "tags": [
+        "年代借用",
+        "眼部重点"
+      ],
+      "intent": "composed",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    },
+    {
+      "id": "khaite-ss25-beauty",
+      "category": "妆容",
+      "brand": "Khaite",
+      "season": "2025 春夏",
+      "designer": "妆容品牌：NARS（原文）",
+      "title": "把重点留给肌肤与眉毛",
+      "direction": "轻底妆与眉毛",
+      "source": "spring",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2024-09-09-at-6-16-47-pm-66df73dbdb334.png?crop=0.580xw%3A0.578xh%3B0.209xw%2C0",
+      "credit": "Hanna Tveite",
+      "fact": "BAZAAR 记录了这一季的光泽肌肤与醒目眉毛。",
+      "reading": "原创解读：减少妆容元素，是把注意力重新分配给少数重点。轻底妆仍然是一种造型选择，不是对肤质提出要求。",
+      "application": "按需要局部均匀肤色，顺原眉形梳理；愿意化妆时再加一点唇色，也可保留自然状态。",
+      "avoid": "秀场灯光与摄影会影响光泽，不能把照片质感当作现实肤质目标。",
+      "question": "如果只有五分钟，你愿意优先整理眉毛、唇色，还是都不化？",
+      "tags": [
+        "少量元素",
+        "日常转译"
+      ],
+      "intent": "relaxed",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    },
+    {
+      "id": "dior-aw25-beauty",
+      "category": "妆容",
+      "brand": "Dior",
+      "season": "2025 秋冬",
+      "designer": "妆容：Peter Philips",
+      "title": "很小的眼部重点，也能改变表达",
+      "direction": "局部眼线",
+      "source": "fall",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dior-bks-f25-017-67cf0cdbd2cb9.jpg?crop=1xw%3A1xh%3Bcenter%2Ctop",
+      "credit": "LAUNCHMETRICS SPOTLIGHT",
+      "fact": "BAZAAR 记录了 Peter Philips 在内眼角加入黑色眼线的做法。",
+      "reading": "原创解读：同样是强调眼部，位置、面积与边界清晰度会改变视觉重点。表达强度不必依靠把所有地方都画得更浓。",
+      "application": "先把“只强调一处”的方法带走：根据自己的习惯选短眼线或眉尾，其他部分保持轻。",
+      "avoid": "内眼角的完整秀场做法并非人人都要复制；先从熟悉的普通眼线开始。",
+      "question": "你希望保留的是克制感，还是一点更鲜明的眼部表达？",
+      "tags": [
+        "小面积重点",
+        "妆容结构"
+      ],
+      "intent": "expressive",
+      "review_status": "draft",
+      "rights_status": "reference_only_no_license_confirmed",
+      "image_mode": "official_remote_reference",
+      "interpretation_kind": "original_analysis"
+    }
+  ]
+}
