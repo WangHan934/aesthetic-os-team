@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-07",
+  "records": 52,
+  "uniqueImages": 35,
+  "counts": {
+    "hair/air": 3,
+    "hair/eight": 3,
+    "hair/nobang": 3,
+    "hair/straight": 3,
+    "hair/curly": 3,
+    "hair/black": 3,
+    "hair/brown": 3,
+    "makeup/girl": 2,
+    "makeup/boy": 2,
+    "makeup/elegant": 2,
+    "makeup/classic": 2,
+    "makeup/natural": 2,
+    "makeup/avant": 2,
+    "makeup/romantic": 2,
+    "makeup/dramatic": 2,
+    "body/pear": 3,
+    "body/hourglass": 3,
+    "body/h": 3,
+    "body/inverted": 3,
+    "body/apple": 3
+  },
+  "viewports": [
+    {
+      "width": 1280,
+      "group": "hair",
+      "overflow": false,
+      "broken": 0,
+      "count": 21
+    },
+    {
+      "width": 1280,
+      "group": "makeup",
+      "overflow": false,
+      "broken": 0,
+      "count": 16
+    },
+    {
+      "width": 1280,
+      "group": "body",
+      "overflow": false,
+      "broken": 0,
+      "count": 15
+    },
+    {
+      "width": 375,
+      "group": "hair",
+      "overflow": false,
+      "broken": 0,
+      "count": 21
+    },
+    {
+      "width": 375,
+      "group": "makeup",
+      "overflow": false,
+      "broken": 0,
+      "count": 16
+    },
+    {
+      "width": 375,
+      "group": "body",
+      "overflow": false,
+      "broken": 0,
+      "count": 15
+    }
+  ],
+  "styles": [
+    {
+      "key": "girl",
+      "actual": "少女型"
+    },
+    {
+      "key": "boy",
+      "actual": "少年型"
+    },
+    {
+      "key": "elegant",
+      "actual": "优雅型"
+    },
+    {
+      "key": "classic",
+      "actual": "古典型"
+    },
+    {
+      "key": "natural",
+      "actual": "自然型"
+    },
+    {
+      "key": "avant",
+      "actual": "前卫型"
+    },
+    {
+      "key": "romantic",
+      "actual": "浪漫型"
+    },
+    {
+      "key": "dramatic",
+      "actual": "戏剧型"
+    }
+  ],
+  "errors": [],
+  "baselineResourceWarnings": [],
+  "externalFailures": [],
+  "completedFlow": true,
+  "noMakeupHidesImages": true,
+  "zeroBudget": true,
+  "refreshPersists": true,
+  "resetClears": true
+}
