@@ -436,3 +436,47 @@ VISUAL_ITEMS.push({
   "page": "https://www.xiaohongshu.com/explore/69b7f962000000002202a6f6",
   "credit": "版型借用 · 图片：@茉莉Mollllly；选图与说明：本项目"
 });
+
+// 项目演示补充：3张齐刘海、2张前卫图形妆。
+VISUAL_ITEMS.push({
+  "group": "makeup",
+  "type": "avant",
+  "image": "images/visual/looks/demo/69bfa70d000000001d019be3-1.jpg",
+  "caption": "正面可见粗黑上眼线、独立下眼线与跨鼻梁浅色图形线条；第二张角度可辅助观察。。复杂图形妆进阶参考；15分钟为项目练习预估，实际用时因熟练度而异。",
+  "page": "https://www.xiaohongshu.com/explore/69bfa70d000000001d019be3",
+  "credit": "图片：@CCCCC；选图与说明：本项目",
+  "minutes": 15
+});
+VISUAL_ITEMS.push({
+  "group": "makeup",
+  "type": "avant",
+  "image": "images/visual/looks/demo/69bfa70d000000001d019be3-2.jpg",
+  "caption": "正面可见粗黑上眼线、独立下眼线与跨鼻梁浅色图形线条；第二张角度可辅助观察。。复杂图形妆进阶参考；15分钟为项目练习预估，实际用时因熟练度而异。",
+  "page": "https://www.xiaohongshu.com/explore/69bfa70d000000001d019be3",
+  "credit": "图片：@CCCCC；选图与说明：本项目",
+  "minutes": 15
+});
+VISUAL_ITEMS.push({
+  "group": "hair",
+  "type": "blunt",
+  "image": "images/visual/looks/demo/6a1818cb000000003502db06-1.jpg",
+  "caption": "两张正面近景可看清较厚的齐平刘海边缘；第二张面部与发际区域最清楚。",
+  "page": "https://www.xiaohongshu.com/explore/6a1818cb000000003502db06",
+  "credit": "图片：@直至海水褪色；选图与说明：本项目"
+});
+VISUAL_ITEMS.push({
+  "group": "hair",
+  "type": "blunt",
+  "image": "images/visual/looks/demo/6a1818cb000000003502db06-2.jpg",
+  "caption": "两张正面近景可看清较厚的齐平刘海边缘；第二张面部与发际区域最清楚。",
+  "page": "https://www.xiaohongshu.com/explore/6a1818cb000000003502db06",
+  "credit": "图片：@直至海水褪色；选图与说明：本项目"
+});
+VISUAL_ITEMS.push({
+  "group": "hair",
+  "type": "blunt",
+  "image": "images/visual/looks/demo/6a0da3db0000000007029b95-1.jpg",
+  "caption": "眉上至眉际的较厚平直刘海，清晰度可用于发型边缘对照。",
+  "page": "https://www.xiaohongshu.com/explore/6a0da3db0000000007029b95",
+  "credit": "图片：@一粒羊；选图与说明：本项目"
+});

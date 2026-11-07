@@ -15,7 +15,7 @@
  }
  function bloggerHead(b){
   const meta=[b.fans?`${b.fans} 粉丝`:'',b.redId?`小红书号 ${esc(b.redId)}`:''].filter(Boolean).join(' · ');
-  return `<div class="blogger-head"><div><h4>@${esc(b.name)}</h4><p class="quiet">${meta?meta+' · ':''}${b.sub?esc(b.sub)+' · ':''}由形象分析师「${esc(b.recommendedBy)}」推荐为${NAMES[b.style]}</p></div><a class="button small" href="${b.profile}" target="_blank" rel="noopener">去小红书看这位博主的穿搭</a></div>`;
+  return `<div class="blogger-head"><div><h4>@${esc(b.name)}</h4><p class="quiet">${meta?meta+' · ':''}${b.sub?esc(b.sub)+' · ':''}${b.recommendedBy==='本项目选材'?'本项目对本套服装的解读：'+NAMES[b.style]:'由形象分析师「'+esc(b.recommendedBy)+'」推荐为'+NAMES[b.style]}</p></div><a class="button small" href="${b.profile}" target="_blank" rel="noopener">去小红书看这位博主的穿搭</a></div>`;
  }
  function bloggerBlock(b){
   const more=b.photos.length-FIRST;
@@ -56,7 +56,7 @@
   if(!list.length)return '';
   const alt=GALLERY_BLOGGERS.filter(b=>b.style===second);
   const cards=list.map(b=>`<div class="strip-blogger"><p><strong>@${esc(b.name)}</strong>${b.fans?` <span class="quiet">${b.fans} 粉丝</span>`:''}</p><div class="strip-looks">${b.photos.slice(0,4).map(p=>look(b,p,false)).join('')}</div><p class="strip-links"><a href="${b.profile}" target="_blank" rel="noopener">去小红书关注博主、看穿搭视频</a><a href="#bloggers" data-go-style="${style}">在本站看这位博主全部 ${b.photos.length} 套</a></p></div>`).join('');
-  return `<div class="detail-block blogger-strip"><h4>跟着学：和你同为${NAMES[style]}的博主</h4><p class="quiet">先挑一位最像你的博主关注，参考这位博主的单品和搭配试一周。图片已获博主授权展示，点图可打开原帖。</p>${cards}${alt.length?`<p class="quiet">你也兼有${NAMES[second]}的特点，可以看看：${alt.map(b=>`<a href="#bloggers" data-go-style="${second}">@${esc(b.name)}</a>`).join('、')}</p>`:''}</div>`;
+  return `<div class="detail-block blogger-strip"><h4>跟着学：和你同为${NAMES[style]}的博主</h4><p class="quiet">先挑一位最像你的博主关注，参考这位博主的单品和搭配试一周。点图可打开原帖；新增选材用于项目演示，署名与来源逐图保留。</p>${cards}${alt.length?`<p class="quiet">你也兼有${NAMES[second]}的特点，可以看看：${alt.map(b=>`<a href="#bloggers" data-go-style="${second}">@${esc(b.name)}</a>`).join('、')}</p>`:''}</div>`;
  };
  document.addEventListener('click',e=>{
   const f=e.target.closest('#blogger-filters button');

@@ -1,5 +1,5 @@
 'use strict';
-// 博主穿搭图库数据。图片由站长私信博主取得展示授权；每张图都标注出处并链接回小红书原帖。
+// 博主穿搭图库数据。原有图片沿用仓库授权记录；新增条目经用户允许用于项目演示并提交GitHub，未取得作者复用授权。
 // 博主与风格的对应来自小红书形象分析师的推荐笔记（见规范文档「小红书风格案例库」），2026-10-31 整理。
 // 新增或撤下图片：改这里的 photos 列表，并同步增删 images/gallery/ 下的文件。博主要求撤下时，删掉对应条目即可。
 const GALLERY_STYLE_WORDS={"girl": "纯欲、甜辣、元气、文艺、甜酷", "boy": "盐系、冷酷、文艺、运动、飒爽", "elegant": "娴静、温婉、优雅、贵气、清冷", "classic": "严谨、书香、高贵、端庄、古典", "natural": "亲和、洒脱、田园森系、清雅", "avant": "厌世、冷酷、未来、暗黑、街头", "romantic": "妩媚、华丽、奢华、冷艳、异域", "dramatic": "混血、气场、霸气、冷酷、女王"};
@@ -17,3 +17,256 @@ const GALLERY_BLOGGERS=[{"id":"girl-xigua","style":"girl","name":"西瓜土豆",
 {"id":"rom-beiran","style":"romantic","name":"北冉","profile":"https://www.xiaohongshu.com/user/profile/5f1637090000000001000aa6","redId":"310991498","fans":"24万","recommendedBy":"Thea老师.","sub":"","photos":[{"src":"images/gallery/romantic/rom-beiran-0a027f08.webp","note":"https://www.xiaohongshu.com/explore/6aca0752000000000a027f08","title":"当我开始不被外界改变自我底色","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-0a025643.webp","note":"https://www.xiaohongshu.com/explore/6ac8de5c000000000a025643","title":"怎么会有人永远不老！","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-140003d0.webp","note":"https://www.xiaohongshu.com/explore/6aba2e1700000000140003d0","title":"当我用不一样的po图方式记录迪士尼","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-1001de19.webp","note":"https://www.xiaohongshu.com/explore/6aaa5e66000000001001de19","title":"秋天 我的穿搭舒适区🍂","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-1803e58f.webp","note":"https://www.xiaohongshu.com/explore/6a91504b000000001803e58f","title":"“只是怕错过”","w":540,"h":721},{"src":"images/gallery/romantic/rom-beiran-1600814d.webp","note":"https://www.xiaohongshu.com/explore/6a8c549b000000001600814d","title":"看车的尽头，是找到与自己同频的生活方式","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-1600bcda.webp","note":"https://www.xiaohongshu.com/explore/6a8c2cf5000000001600bcda","title":"日常之外的另一种感知","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-28009bed.webp","note":"https://www.xiaohongshu.com/explore/6a896c070000000028009bed","title":"把生活调成喜欢的频率","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-28005794.webp","note":"https://www.xiaohongshu.com/explore/6a86a1dd0000000028005794","title":"Soft fit🍂🌬️而我已经开始享受早秋","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-050332ab.webp","note":"https://www.xiaohongshu.com/explore/6a842ef000000000050332ab","title":"总是下雨的八月","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-2402e316.webp","note":"https://www.xiaohongshu.com/explore/6a802f75000000002402e316","title":"冻结那时间 冻结初遇那一天","w":540,"h":721},{"src":"images/gallery/romantic/rom-beiran-05031467.webp","note":"https://www.xiaohongshu.com/explore/6a7ece4f0000000005031467","title":"人生不止抵达目的地，也要享受沿途","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-2403f3b1.webp","note":"https://www.xiaohongshu.com/explore/6a759c4d000000002403f3b1","title":"夏天怎么能少了这几支裸粉色","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-25005888.webp","note":"https://www.xiaohongshu.com/explore/6a75e80d0000000025005888","title":"一只包装下所有的夏日浪漫","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-25006268.webp","note":"https://www.xiaohongshu.com/explore/6a71aa3b0000000025006268","title":"grwm｜出门看日落的前1h 🌄","w":540,"h":721},{"src":"images/gallery/romantic/rom-beiran-0101e1ca.webp","note":"https://www.xiaohongshu.com/explore/6a68586e000000000101e1ca","title":"“记忆会在某种香味里相逢”","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-22030dee.webp","note":"https://www.xiaohongshu.com/explore/6a6c642d0000000022030dee","title":"在阴天的维港","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-1702bf83.webp","note":"https://www.xiaohongshu.com/explore/6a57521a000000001702bf83","title":"让眼镜 记录当下的风景","w":540,"h":720},{"src":"images/gallery/romantic/rom-beiran-15025f1d.webp","note":"https://www.xiaohongshu.com/explore/6a52f3a90000000015025f1d","title":"最近心情Blue🔵","w":540,"h":720}]},
 {"id":"rom-jiayi","style":"romantic","name":"刘佳仪","profile":"https://www.xiaohongshu.com/search_result?keyword=%E5%88%98%E4%BD%B3%E4%BB%AA","redId":null,"fans":null,"recommendedBy":"Thea老师.","sub":"","photos":[{"src":"images/gallery/romantic/rom-jiayi-x00.webp","note":"","title":"","w":540,"h":719},{"src":"images/gallery/romantic/rom-jiayi-x01.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x03.webp","note":"","title":"","w":540,"h":721},{"src":"images/gallery/romantic/rom-jiayi-x04.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x05.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x06.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x07.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x08.webp","note":"","title":"","w":540,"h":405},{"src":"images/gallery/romantic/rom-jiayi-x09.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x10.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x12.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x13.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x16.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x17.webp","note":"","title":"","w":540,"h":719},{"src":"images/gallery/romantic/rom-jiayi-x18.webp","note":"","title":"","w":540,"h":720},{"src":"images/gallery/romantic/rom-jiayi-x19.webp","note":"","title":"","w":540,"h":720}]},
 {"id":"dra-molly","style":"dramatic","name":"茉莉Mollllly","profile":"https://www.xiaohongshu.com/user/profile/55ae5e3fb7ba223da9cd1ed7","redId":"110655363","fans":"22.6万","recommendedBy":"容妍形象Penny","sub":"日常戏剧、时尚、御姐风","photos":[{"src":"images/gallery/dramatic/dra-molly-0902d95d.webp","note":"https://www.xiaohongshu.com/explore/6a899f49000000000902d95d","title":"直接成女大了","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-1c00f2ed.webp","note":"https://www.xiaohongshu.com/explore/6a65d790000000001c00f2ed","title":"是今天穿的舒服的松弛感ootd～","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-0a039609.webp","note":"https://www.xiaohongshu.com/explore/6a645db4000000000a039609","title":"失踪人口回归","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-21016b4a.webp","note":"https://www.xiaohongshu.com/explore/6a4cd92b0000000021016b4a","title":"这条裙子是懂氛围感的🖤","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-080008d0.webp","note":"https://www.xiaohongshu.com/explore/6a4b6ecf00000000080008d0","title":"灰粉真的绝配💗","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-22017357.webp","note":"https://www.xiaohongshu.com/explore/6a3293b70000000022017357","title":"真的很难拒绝波点裙！！！","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-06022515.webp","note":"https://www.xiaohongshu.com/explore/6a261deb0000000006022515","title":"这条裙子是懂氛围感的💛","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-060224a2.webp","note":"https://www.xiaohongshu.com/explore/6a2170f700000000060224a2","title":"牛仔裤的夏天👖","w":540,"h":721},{"src":"images/gallery/dramatic/dra-molly-1f000a30.webp","note":"https://www.xiaohongshu.com/explore/69f1f594000000001f000a30","title":"白衬衫和牛仔裤的神仙组合","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-2301d2d8.webp","note":"https://www.xiaohongshu.com/explore/69ef66d0000000002301d2d8","title":"今天这么穿","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-23004741.webp","note":"https://www.xiaohongshu.com/explore/69eb6e690000000023004741","title":"上班通勤穿搭","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-1f00005a.webp","note":"https://www.xiaohongshu.com/explore/69e9fc0b000000001f00005a","title":"1还是2","w":540,"h":721},{"src":"images/gallery/dramatic/dra-molly-2202a6f6.webp","note":"https://www.xiaohongshu.com/explore/69b7f962000000002202a6f6","title":"白衬衫+牛仔裤 怎么穿都好看啊！","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-1e00efcd.webp","note":"https://www.xiaohongshu.com/explore/69b51282000000001e00efcd","title":"是妈妈 也是自己","w":540,"h":721},{"src":"images/gallery/dramatic/dra-molly-20039d4d.webp","note":"https://www.xiaohongshu.com/explore/69b3b4a10000000020039d4d","title":"是妈妈 也是自己","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-06009e1d.webp","note":"https://www.xiaohongshu.com/explore/69b178990000000006009e1d","title":"是妈妈 更是自己","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-2800a4b0.webp","note":"https://www.xiaohongshu.com/explore/69b0cb85000000002800a4b0","title":"一眼爱住的衬衣！上班通勤穿搭","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-0e00e859.webp","note":"https://www.xiaohongshu.com/explore/69aec4d7000000000e00e859","title":"哥哥说紫色很有韵味","w":540,"h":720},{"src":"images/gallery/dramatic/dra-molly-2800bf7e.webp","note":"https://www.xiaohongshu.com/explore/69ae698a000000002800bf7e","title":"生完孩子也继续做自己！！","w":540,"h":720}]}];
+
+// 用户允许并要求提交GitHub的演示选材，作者授权状态单独记录。
+GALLERY_BLOGGERS.push(
+{
+  "id": "demo-6929e007000000003700a3e0",
+  "style": "girl",
+  "name": "小椰的衣橱",
+  "profile": "https://www.xiaohongshu.com/user/profile/6929e007000000003700a3e0",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6addeb510000000024036d56-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6addeb510000000024036d56",
+      "title": "浅粉色收腰上衣、荷叶边和短裙，适合柔和细节示例。标题自述梨形；第二张可观察完整服装轮廓。",
+      "w": 1047,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6addeb510000000024036d56-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6addeb510000000024036d56",
+      "title": "浅粉色收腰上衣、荷叶边和短裙，适合柔和细节示例。标题自述梨形；第二张可观察完整服装轮廓。",
+      "w": 1047,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-66642cf20000000003032075",
+  "style": "boy",
+  "name": "源来是你",
+  "profile": "https://www.xiaohongshu.com/user/profile/66642cf20000000003032075",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6aa92f790000000012036269-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6aa92f790000000012036269",
+      "title": "宽松卫衣、浅色长裤和运动鞋；第一张为多套合集，第二张为白色宽松单套。",
+      "w": 1050,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6aa92f790000000012036269-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6aa92f790000000012036269",
+      "title": "宽松卫衣、浅色长裤和运动鞋；第一张为多套合集，第二张为白色宽松单套。",
+      "w": 1051,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-6281c3610000000021020900",
+  "style": "elegant",
+  "name": "YIYI WANG",
+  "profile": "https://www.xiaohongshu.com/user/profile/6281c3610000000021020900",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6acc459f000000000a01dccb-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6acc459f000000000a01dccb",
+      "title": "奶油白针织、柔软围领和同色搭配；第一张材质清楚，第二张可看完整搭配。",
+      "w": 1049,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6acc459f000000000a01dccb-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6acc459f000000000a01dccb",
+      "title": "奶油白针织、柔软围领和同色搭配；第一张材质清楚，第二张可看完整搭配。",
+      "w": 1050,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-5a52eae74eacab76bf903849",
+  "style": "classic",
+  "name": "夹心小柴",
+  "profile": "https://www.xiaohongshu.com/user/profile/5a52eae74eacab76bf903849",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6a844df9000000000502226e-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6a844df9000000000502226e",
+      "title": "奶油色黑滚边披肩上衣、黑色裙装和结构手袋；对称细节与克制配色清晰。",
+      "w": 1051,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6a844df9000000000502226e-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6a844df9000000000502226e",
+      "title": "奶油色黑滚边披肩上衣、黑色裙装和结构手袋；对称细节与克制配色清晰。",
+      "w": 1050,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-5a80eeac4eacab18ef2790d7",
+  "style": "classic",
+  "name": "有竹-",
+  "profile": "https://www.xiaohongshu.com/user/profile/5a80eeac4eacab18ef2790d7",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6aaf69e4000000002901033a-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6aaf69e4000000002901033a",
+      "title": "第二张立领盘扣外套、帽子和结构手袋，比第一张针织裙更适合古典参考。",
+      "w": 1050,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-554f8394b203d96e348d9b3f",
+  "style": "natural",
+  "name": "Peanut酱",
+  "profile": "https://www.xiaohongshu.com/user/profile/554f8394b203d96e348d9b3f",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6accca72000000001400168b-3.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6accca72000000001400168b",
+      "title": "第三张可见军绿宽松外套、灰绿内搭、宽松裙装及鞋履；完整轮廓和低饱和叠穿可作自然方向参考。",
+      "w": 1050,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-5a9204f4e8ac2b7bd5af4ff1",
+  "style": "avant",
+  "name": "山吹🍂",
+  "profile": "https://www.xiaohongshu.com/user/profile/5a9204f4e8ac2b7bd5af4ff1",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/69b935ed000000001a0220f3-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/69b935ed000000001a0220f3",
+      "title": "黑白不对称叠穿、垂坠长下装和斜跨包；第一、三张全身，第二张展示扣饰与层次。",
+      "w": 818,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/69b935ed000000001a0220f3-3.jpg",
+      "note": "https://www.xiaohongshu.com/explore/69b935ed000000001a0220f3",
+      "title": "黑白不对称叠穿、垂坠长下装和斜跨包；第一、三张全身，第二张展示扣饰与层次。",
+      "w": 730,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-5a6fe19011be10262b599a35",
+  "style": "romantic",
+  "name": "白云甜CloudSweet",
+  "profile": "https://www.xiaohongshu.com/user/profile/5a6fe19011be10262b599a35",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6ac1ef510000000014003d04-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6ac1ef510000000014003d04",
+      "title": "深棕色长裙、柔软垂坠和庭院场景；第二张完整轮廓优于第一张局部。",
+      "w": 1023,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-64a17c0d000000000b01480f",
+  "style": "dramatic",
+  "name": "Jade的小宇宙",
+  "profile": "https://www.xiaohongshu.com/user/profile/64a17c0d000000000b01480f",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6ad0aacc00000000180394ed-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6ad0aacc00000000180394ed",
+      "title": "第一张黑色长礼服、大面积撞色荷叶边；第二张紫色层叠裙装，适合夸张体积对照。",
+      "w": 933,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6ad0aacc00000000180394ed-2.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6ad0aacc00000000180394ed",
+      "title": "第一张黑色长礼服、大面积撞色荷叶边；第二张紫色层叠裙装，适合夸张体积对照。",
+      "w": 933,
+      "h": 1400
+    }
+  ]
+},
+{
+  "id": "demo-6024ca990000000001006c50",
+  "style": "dramatic",
+  "name": "猫猫脆脆饼",
+  "profile": "https://www.xiaohongshu.com/user/profile/6024ca990000000001006c50",
+  "redId": null,
+  "fans": null,
+  "recommendedBy": "本项目选材",
+  "sub": "对选定服装的风格解读",
+  "authorization": "用户允许项目演示并提交GitHub；作者复用授权未取得",
+  "photos": [
+    {
+      "src": "images/visual/looks/demo/6a02c0e600000000350220ec-1.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6a02c0e600000000350220ec",
+      "title": "黑色长礼服具有大面积层叠裙摆和强烈体积；第一张坐姿看铺展轮廓，第三张站姿可观察全套与鞋履。",
+      "w": 1050,
+      "h": 1400
+    },
+    {
+      "src": "images/visual/looks/demo/6a02c0e600000000350220ec-3.jpg",
+      "note": "https://www.xiaohongshu.com/explore/6a02c0e600000000350220ec",
+      "title": "黑色长礼服具有大面积层叠裙摆和强烈体积；第一张坐姿看铺展轮廓，第三张站姿可观察全套与鞋履。",
+      "w": 1050,
+      "h": 1400
+    }
+  ]
+}
+);

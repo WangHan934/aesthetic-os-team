@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-07",
+  "checks": [
+    {
+      "width": 1280,
+      "counts": {
+        "bloggers": 24,
+        "styles": {
+          "girl": 3,
+          "boy": 3,
+          "elegant": 3,
+          "classic": 3,
+          "natural": 3,
+          "avant": 3,
+          "romantic": 3,
+          "dramatic": 3
+        },
+        "hair": 24,
+        "blunt": 3,
+        "makeup": 18,
+        "body": 15
+      },
+      "localImagesDecoded": 22,
+      "overflow": false,
+      "dialog": true
+    },
+    {
+      "width": 375,
+      "counts": {
+        "bloggers": 24,
+        "styles": {
+          "girl": 3,
+          "boy": 3,
+          "elegant": 3,
+          "classic": 3,
+          "natural": 3,
+          "avant": 3,
+          "romantic": 3,
+          "dramatic": 3
+        },
+        "hair": 24,
+        "blunt": 3,
+        "makeup": 18,
+        "body": 15
+      },
+      "localImagesDecoded": 22,
+      "overflow": false,
+      "dialog": true
+    }
+  ],
+  "report": {
+    "noMakeup": true,
+    "zeroBudget": true,
+    "persistsAfterReload": true,
+    "resetClears": true
+  },
+  "javascriptErrors": [],
+  "externalRequests": "本次仅检查本地演示资源；外部杂志图片请求被测试拦截",
+  "scope": "用户允许项目演示并要求提交GitHub；作者复用授权未取得",
+  "tested_source": "待提交仓库工作区"
+}
