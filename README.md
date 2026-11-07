@@ -36,6 +36,8 @@ python -m http.server 8000
 | `index.html` | 网页结构与表单 |
 | `style.css` | 响应式布局与打印样式 |
 | `app.js` | 案例数据与交互逻辑 |
+| `visual-guide.js` | 图鉴页面和放大查看，加图的写法在文件开头 |
+| `visual-style.js`、`visual-face.js`、`visual-looks.js` | 图鉴数据：风格；脸型和五官；发型、妆容、身材 |
 | `celebrity-data.js` | 明星造型参考数据（待录入），报告中排在博主之前 |
 | `AGENTS.md` | Codex 等工具的协作规则 |
 | `docs/团队分工与设计文档.md` | 产品目标、队友分工、任务卡与两天节奏 |
