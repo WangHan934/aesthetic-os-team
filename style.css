@@ -39,3 +39,7 @@
 .guide-viewer-text p{margin:8px 0 0;font-size:13px}
 .guide-strip .guide-grid{margin-top:12px}
 @media(max-width:650px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.guide-row-head{grid-template-columns:1fr;gap:6px}}
+
+/* 脸型和身材参考保留完整构图与原图文字。 */
+.guide-open[data-guide-item^="face|"] img,
+.guide-open[data-guide-item^="body|"] img{object-fit:contain;background:var(--muslin)}

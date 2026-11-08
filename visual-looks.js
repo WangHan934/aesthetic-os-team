@@ -480,3 +480,62 @@ VISUAL_ITEMS.push({
   "page": "https://www.xiaohongshu.com/explore/6a0da3db0000000007029b95",
   "credit": "图片：@一粒羊；选图与说明：本项目"
 });
+
+// 新增参考放在每类前面；原有三套穿搭仍保留。
+VISUAL_ITEMS.unshift(
+{
+  "group": "body",
+  "type": "pear",
+  "image": "images/visual/looks/demo/pear-6a9be12f000000002901359f-03.jpg",
+  "caption": "原帖作者自述梨形，分享开衫与外套穿搭。图中是同一人的多套搭配；宽松衣服会遮挡身体轮廓。",
+  "page": "https://www.xiaohongshu.com/explore/6a9be12f000000002901359f",
+  "credit": "原帖：@小鬼大大酱；原帖分类参考",
+  "sourceImageIndex": 3,
+  "classificationBasis": "原帖自述",
+  "authorization": "演示使用经项目用户允许；作者复用授权未取得"
+},
+{
+  "group": "body",
+  "type": "hourglass",
+  "image": "images/visual/looks/demo/hourglass-68e9e1300000000004014713-01.jpg",
+  "caption": "原帖作者自述沙漏型。参考贴身上衣与下装的搭配，站姿和镜面会改变比例；不是标准体型或身材目标。",
+  "page": "https://www.xiaohongshu.com/explore/68e9e1300000000004014713",
+  "credit": "原帖：@太太已经在练了；原帖分类参考",
+  "sourceImageIndex": 1,
+  "classificationBasis": "原帖自述",
+  "authorization": "演示使用经项目用户允许；作者复用授权未取得"
+},
+{
+  "group": "body",
+  "type": "h",
+  "image": "images/visual/looks/demo/h-6aaebdfa0000000011034723-08.jpg",
+  "caption": "H 型版型借鉴：直线背心叠穿长袖，以高腰阔腿下装形成上下层次。原作者自述苹果型；此图只借鉴服装结构，不把人物归为 H 型。",
+  "page": "https://www.xiaohongshu.com/explore/6aaebdfa0000000011034723",
+  "credit": "原帖：@王昭君🌾微胖穿搭；版型借鉴",
+  "sourceImageIndex": 8,
+  "classificationBasis": "项目版型解读",
+  "authorization": "演示使用经项目用户允许；作者复用授权未取得"
+},
+{
+  "group": "body",
+  "type": "inverted",
+  "image": "images/visual/looks/demo/inverted-6aaebdfa0000000011034723-07.jpg",
+  "caption": "倒三角版型借鉴：白色阔腿裤增加下装的视觉量感，敞开衬衫形成纵向线条。原作者自述苹果型；此图不是倒三角人物示例。",
+  "page": "https://www.xiaohongshu.com/explore/6aaebdfa0000000011034723",
+  "credit": "原帖：@王昭君🌾微胖穿搭；版型借鉴",
+  "sourceImageIndex": 7,
+  "classificationBasis": "项目版型解读",
+  "authorization": "演示使用经项目用户允许；作者复用授权未取得"
+},
+{
+  "group": "body",
+  "type": "apple",
+  "image": "images/visual/looks/demo/apple-6aaebdfa0000000011034723-02.jpg",
+  "caption": "原帖作者自述苹果型。参考开衫与深色阔腿裤的组合；这是穿搭照片，不是体型测量依据。",
+  "page": "https://www.xiaohongshu.com/explore/6aaebdfa0000000011034723",
+  "credit": "原帖：@王昭君🌾微胖穿搭；原帖分类参考",
+  "sourceImageIndex": 2,
+  "classificationBasis": "原帖自述",
+  "authorization": "演示使用经项目用户允许；作者复用授权未取得"
+}
+);
